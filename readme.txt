@@ -11,7 +11,7 @@ CODE USAGE INSTRUCTIONS
 
 4) For testing the models on external datasets, download the patches in other folder and create a ground truth data frame similar to '/data/partitions/gt_sicap_patches.xlsx'.
 
-In our work, one of the external datasets validated was SICAPvs (https://data.mendeley.com/datasets/9xxm58dvs3/1), which dataframe is shared in '/data/partitions/gt_sicap_patches.xlsx'.
+In our work, one of the external datasets validated was SICAPv2 (https://data.mendeley.com/datasets/9xxm58dvs3/1), which dataframe is shared in '/data/partitions/gt_sicap_patches.xlsx'.
 
 
 REQUIRED PYTHON (3.6.7) LIBRARIES
