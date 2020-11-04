@@ -148,7 +148,7 @@ trainer = CNNTrainer(n_epochs=n_epochs, criterion=criterion, optimizer=optimizer
                      lr_exp_decay=True,  learning_rate_esch_half=True, class_weights=class_weights)
 
 # Train
-model, history = trainer.train(model, train_loader, val_loader)
+model, history = trainer.train(model, train_loader)
 
 # Save learning curve
 history.to_excel(dir_results + 'learning_curve_student.xlsx')
